@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Pirate Bay Proxies- Unblock The Pirate Bay</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Unable to access The Pirate Bay? Use a proxy site to bypass your ISP block">
+  <meta name="keywords" content="pirate, bay, proxy, list, thepiratebay, piratebay, piratebay proxy, piraten, geblokkeerd, pirate bay proxy, thepiratebay.org, proxy-bay.cam, piratebay, blocked, unblocked">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/logo.png">
+  <meta property="og:site_name" content="https://mirroarbay.org">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Unblock The Pirate bay - https://piratebayproxies.github.io">
+  <meta name="twitter:description" content="Unable to access The Pirate Bay? Use a proxy site to bypass your ISP block">
+  <meta name="twitter:image:src" content="assets/img/logo.png">
+  <meta name="application-name" content="Pirate Bay Proxies">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="assets/img/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="assets/img/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="assets/img/mstile-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="assets/img/mstile-310x150.png">
+  <meta name="msapplication-square310x310logo" content="assets/img/mstile-310x310.png">
+  <link rel="stylesheet" href="assets/css/style.css?280218">
+  <link rel="image_src" href="assets/img/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/img/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="assets/img/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/img/favicon-128.png" sizes="128x128">
+</head>
+<body>
+  <div id="container">
+  <div id="navBar">
+    <a href="index.html" title="The Proxy Bay" alt="logo">
+      <img src="assets/img/header-logo.png" height="50" width="50" id="logo" alt="logo" />
+      <h2>Pirate Bay Proxies</h2>
+    </a>
+    <ul id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><strong><a href="setup.html">Setup a proxy</a></strong></li>
+        <li><a href="submit.html">Submit</a></li>
+    </ul>
+  </div>
+
+  <div id="content" style="width:900px;text-align:left">
+    <h1>Sections</h1>
+    <ul id="setupMenu">
+    <li><a href="#Overview">Overview</a></li>
+    <li><a href="#Docker">Docker Method (Fastest)</a></li>
+    <li><a href="#PHP">PHP Method</a></li>
+    <li><a href="#Tips">Tips</a></li>
+    <li><a href="#what-next">Next steps</a></li>
+    </ul>
+    <br>
+    <div class="setup" id="Overview">
+      <h1>Overview</h1>
+      <p>
+      If you ever wonder how you can create your own tpb proxy very fast here i have described.
+      This guide will explain how to set up your own Pirate Bay proxy site. A proxy site helps users access The Pirate Bay in countries and networks where The Pirate Bay has been blocked.
+      </p>
+      <p>Now you can create your own piratebay proxy in 2 lines of command</p>
+
+      <p>a) If you're using a Debian based OS (e.g. Ubuntu), run this:</p>
+      <p>1. Install Docker</p>
+      <code class="notranslate">curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh</code>
+      <p>2. Run Mirrorbay Image</p>
+      <code class="notranslate">sudo docker run -d --name mirrorbay-mirror -p 80:80 mirrorbay/mirrorbay-mirror:latest</code>
+      <p>Check your http://localhost it should be running on port 80</p>
+      <p>You can also setup this on server using cheap vps like linode</p>
+      <p>If you are doing this on your vps server you can open your vps ip in browser, and it should open, you can also point you domain's A record to your vps's ip address.</p>
+      <p>For more information on how to configure Mirrorbay Image, see <a href="https://hub.docker.com/repository/docker/mirrorbay/mirrorbay-mirror/general" title="Mirrorbay Image">this</a> link.</p>
+    <div class="setup" id="PHP">
+      <h1>PHP Method</h1>
+      <p>With the PHP method, you simply need to uplaod the files to a web server that supports PHP and the PHP-Curl function</p>
+      <p>In most cases, you will just need to upload the files to your web directory and the script will work</p>
+      <p>If you don't have a web server running on your server, you will need to install it first using your distributions repositories (e.g. apt-get install nginx php php-curl)</p>
+      <p><strong>Update:</strong> The script is now compatible with the April 2020 update of The Pirate Bay</p>
+      <p><a href="https://github.com/piratebayproxy/UnblockedPiratebayClean">Download from Github here</a></p>
+    </div>
+    <br><br>
+    <div class="setup" id="Tips">
+      <h1>Tips</h1>
+      <h3>Find a good Web Host</h3>
+      <p>Try looking for a provider that ignores DMCA requests and is not based in the USA or UK. Some hosts (even in Europe) will honour DMCA takedowns, so it's good to do your research. Try doing a Google search for keywords such as: offshore, vps, dmca.</p>
+      <br>
+      <h3>Use a CDN</h3>
+      <p>Use a free CDN service such as <a target="_blank" href="https://www.cloudflare.com/">Cloudflare</a> to help speed up your site and lessen the load on your server. It will also conceal the true location of your server.</p>
+      <p><strong>Note:</strong> If you are using Cloudflare, you will need to add <code>proxy_set_header CF-Connecting-IP '';</code> to your Nginx config for it to work. Otherwise you might get DNS errors</p>
+      <br>
+      <h3>Block bots</h3>
+      <p>To prevent your server IP from being blocked by The Pirate Bay, we recommend preventing search engine bots from scraping your site. If you are using Cloudflare, this can be done by either creating a firewall rule or enabling the DDOS protection.</p>
+      <p>You can create a firewall rule in Cloudflare by going to <strong>Firewall > Firewall Rules</strong> and selecting <strong>Create a Firewall rule</strong>. As the field select <strong>Known Bots</strong> and ensure the action is set as <strong>Block</strong>. You can then deploy the new rule to make it active</p>
+      <p>Note: This will prevent your site from being crawled by search engines</p>
+      <br>
+      <h3>Use SSL</h3>
+      <p>Aside from protecting the privacy of your users, using SSL can also bypass a lot of blocks from ISP's. Therefore, it is highly recommended to use SSL for your proxy</p>
+      <p>Cloudlfare automatically provides an SSL certificate for your site so you can simply add https in front of your domain.</p>
+      <br>
+      <h3 id="tipNginx">Use NGINX</h3>
+      <p>NGINX is the fastest and most reliable proxy method available. The PHP scripts should be used if you don't have ssh access to a server and are unable to setup NGINX</p>
+      <p>Take a look at the <a href="http://nginx.org/en/docs/" target="_blank">NGINX Documentation</a> to further configure it to your needs</p>
+      <p><a href="https://www.digitalocean.com/community/tutorials/how-to-optimize-nginx-configuration" target="_blank">Here</a> is a guide on how to optimize NGINX</p>
+      <br>
+      <h3 id="tipRegistrar">Find a good Domain Registrar</h3>
+      <p>We recommend <a target="_blank" href="https://njal.la/" title="Njalla">Njalla</a>, <a target="_blank" href="https://www.hover.com/" title="Hover">Hover</a>, <a target="_blank" href="https://www.easydns.com/" title="EasyDNS">EasyDNS</a></p>
+      <p>In regards to domain names, it's recommended to avoid any domains managed by the following registries: <a href="http://www.donuts.domains/services/domain-names" rel="nofollow" target="_blank">Donuts</a>, <a href="http://radix.website/tlds/generic.php" rel="nofollow" target="_blank">Radix</a>, <a href="https://nic.cx/" rel="nofollow">CoCCA</a>, or any UK based domain registry such as <a href="https://en.wikipedia.org/wiki/CentralNic" rel="nofollow">CentralNic</a> or <a href="https://icannwiki.org/Nominet" rel="nofollow">Nominet</a>. These registries are known to suspend domains without any notice or dispute process.</p>
+      <p>You can investigate the registry responsible for a particular domain TLD at <a href="https://icannwiki.org/" rel="nofollow">ICANNWiki</a></p>
+      <p>Some example domain TLD's to avoid are:<p>
+      <ul>
+        <li>.pe</li>
+        <li>.io</li>
+        <li>.ly</li>
+        <li>.ph</li>
+        <li>.do</li>
+        <li>.cx</li>
+        <li>.vip</li>
+        <li>.fit</li>
+        <li>.uk</li>
+      </ul>
+      <br>
+      <h3>Use WHOIS privacy on your domain name</h3>
+      <p>When you register a domain name, your billing/registration information usually becomes public in the public WHOIS database. Therefore, anyone can go on a <a href="http://who.is/" target="_blank">Whois search</a> site and lookup your domain.</p>
+      <p>Some domain names do not support WHOIS privacy and will require your contact details to be public. In that case, you can try inputting fake data. However, be aware that this might be against the terms of your domain registration. Here is <a target="_blank" href="http://www.hover.com/blog/why-whois-privacy-is-kind-of-a-big-deal/" title="More Information">More information</a>.</p>
+      <br>
+      <h3>Get a Free Domain Name</h3>
+      <p>Using <a target="_blank" href="https://freedns.afraid.org/">FreeDNS</a>, you can register a free subdomain name (e.g. subdomain.domain.com). This is free and doesn't require you to register or pay for a regular domain. However, since it's a subdomain, you don't control the name servers and cannot use it with services like Cloudflare</p>
+      <p>Another option is to get a free domain from <a href="http://freenom.com/" target="_blank">Freenom</a>. Since these are regular domains (e.g. domain.tk), you can set up name servers to point at services such as Cloudflare</p>
+      <br>
+      <h3>Monitor your site</h3>
+      <p>Here are some free options to monitor the uptime of your site: <a target="_blank" href="https://www.uptrends.com/">UpTrends</a> and <a target="_blank" href="http://uptimerobot.com/">Uptime Robot</a></p>
+      <br>
+      <h3>Handle DMCA requests</h3>
+      <p>By operating a Pirate Bay proxy site, you will likely receive DMCA takedown requests. If you have found a hosting provider that ignores DMCA requests, this likely won't be an issue. However, sometimes your hosting provider or even domain registrar will require you to respond to a DMCA complaint.</p>
+      <p>In this case, we suggest letting the complainant know that you are operating a proxy site and don't host any infringing content.</p>
+      <p>Here is an example template:</p>
+      <code class="notranslate" style="display:block;white-space:pre-wrap">Hello,
+
+The site hosted at mysite.com functions as a reverse proxy that fetches content from third-party sites. You can find more information on how a reverse proxy operates here: https://en.wikipedia.org/wiki/Reverse_proxy
+
+The content you mention originates from a third party site that we do not operate, thepiratebay.org. Therefore, in order to remove any content, you will need to send a request to the original site. Once the content is removed on the original site, it will automatically be removed from proxies such as the one we operate.
+
+The original files can be found at thepiratebay.org:
+https://thepiratebay.org/description.php?id=99999999
+
+We have set up this proxy site to unblock sites that are blocked on networks, mainly for anti-censorship purposes and to promote a free and open Internet.
+
+If you have any further questions feel free to contact us.
+
+Cheers,
+</code>
+      <br>
+      <h3>Check for updates</h3>
+      <p>In the case that something changes with the TPB servers or setup, you may need to update the config or code to make the proxy work. If you're using the PHP script, you can monitor the Github page. Othewise, for NGINX, check this page occasionally for updates</p>
+      <p>Use <a href="https://piratebayproxies.github.io" title="Download Torrent List"><b>ALL LATEST TORRENT PROXY LIST</b></a> For Latest 2023 Working Proxy List Of All Torrent Websites.</p>
+    </div>
+
+    <div class="setup" id="what-next">
+      <h1>What next?</h1>
+      <p class="lead">Once you have set up your proxy and can confirm it is working, submit it to The Proxy Bay</p>
+      <a class="btn btn-large btn-primary" href="./submit.html" >Submit your proxy</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<p xmlns:dct="http://purl.org/dc/terms/"><a href="#">Back to top</a>&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+<img src="https://licensebuttons.net/p/mark/1.0/88x31.png"style="border-style: none;" alt="Public Domain Mark" /></a></p>
+</div>
+</body>
+</html>
