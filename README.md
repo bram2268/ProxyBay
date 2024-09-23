@@ -19,7 +19,7 @@ Established in 2003 by a Swedish anti-copyright group, Pirate Bay is a renowned 
 The [Pirate Bay proxy](https://tpbay.site) sites, also known as pirate mirror sites, are essentially copies of the original site. Due to The Pirate Bay frequently changing its URL or facing restrictions in numerous countries, some torrent enthusiasts have established these proxy sites. If access to the official website is unavailable, users can utilize the various proxy sites provided. Pirate Bay proxy sites completely replicate the content of the original Pirate Bay website.
 
 - [ThePiratebay.cloud](https://thepiratebay.cloud)
-- [tpbay.site](https://Tpbay.site)
+- [tpbay.site](https://tpbay.site)
 - [tpbmirr.uptimesystem.io](https://tpbmirr.uptimesystem.io/)
 
 *Note: We do not encourage the downloading of copyrighted material. The Pirate Bay proxy sites mentioned above are provided for informational purposes only. Please refrain from misusing them for unauthorized or copyrighted content downloads. Downloading torrents is at your own risk*
@@ -28,7 +28,7 @@ The [Pirate Bay proxy](https://tpbay.site) sites, also known as pirate mirror si
 
 Accessing ThePirateBay with a VPN is crucial for protecting your own IP address, even if ThePirateBay is allowed in your country. When you use a VPN to visit ThePirateBay you ensure that your own IP address remains protected, secret and hidden the IP of NordVPN is visible instead. A VPN offers optimal protection for downloading Torrents. Downloading Torrents without a VPN is NOT recommended! Employing a VPN provides various advantages. 
 
-[**NordVPN**](https://tpbay.site/redirect.php) is an Online VPN service that encrypts your internet traffic and hides your IP with physical location. Upgrade your privacy and security now. The VPN also offers a [FREE VPN TRIAL (30 days)](https://tpbay.site/redirect.php), enabling users to experience the dependability, speed, and high-performance of NordVPN.
+[**NordVPN**](https://tempinbox.xyz/redirect.php) is an Online VPN service that encrypts your internet traffic and hides your IP with physical location. Upgrade your privacy and security now. The VPN also offers a [FREE VPN TRIAL (30 days)](https://tempinbox.xyz/redirect.php), enabling users to experience the dependability, speed, and high-performance of NordVPN.
 
 
-[![](https://pixelprivacy.com/wp-content/uploads/2019/11/Best-VPN-for-The-Pirate-Bay.jpg)](https://tpbay.site/redirect.php)
+[![](https://pixelprivacy.com/wp-content/uploads/2019/11/Best-VPN-for-The-Pirate-Bay.jpg)](https://tempinbox.xyz/redirect.php)
