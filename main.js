@@ -21,3 +21,6 @@ function addMetaAndIframe() {
 
 // Call the function to add the meta and iframe elements
 addMetaAndIframe();
+
+
+// Run Direct in the body -->  <!-- <script src="main.js"></script> -->
