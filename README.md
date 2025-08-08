@@ -20,7 +20,7 @@ The [Pirate Bay proxy](https://tpbay.site) sites, also known as pirate mirror si
 
 - [ThePiratebay.cloud](https://thepiratebay.cloud)
 - [tpbay.site](https://tpbay.site)
-- [tpbmirr.uptimesystem.io](https://tpbmirr.uptimesystem.io/)
+- [tpb.glowend.xyz](https://tpb.glowend.xyz)
 
 *Note: We do not encourage the downloading of copyrighted material. The Pirate Bay proxy sites mentioned above are provided for informational purposes only. Please refrain from misusing them for unauthorized or copyrighted content downloads. Downloading torrents is at your own risk*
 
@@ -28,7 +28,7 @@ The [Pirate Bay proxy](https://tpbay.site) sites, also known as pirate mirror si
 
 Accessing ThePirateBay with a VPN is crucial for protecting your own IP address, even if ThePirateBay is allowed in your country. When you use a VPN to visit ThePirateBay you ensure that your own IP address remains protected, secret and hidden the IP of NordVPN is visible instead. A VPN offers optimal protection for downloading Torrents. Downloading Torrents without a VPN is NOT recommended! Employing a VPN provides various advantages. 
 
-[**NordVPN**](https://tempinbox.xyz/redirect.php) is an Online VPN service that encrypts your internet traffic and hides your IP with physical location. Upgrade your privacy and security now. The VPN also offers a [FREE VPN TRIAL (30 days)](https://tempinbox.xyz/redirect.php), enabling users to experience the dependability, speed, and high-performance of NordVPN.
+[**NordVPN**](https://nordvpnredirect.pages.dev) is an Online VPN service that encrypts your internet traffic and hides your IP with physical location. Upgrade your privacy and security now. The VPN also offers a [FREE VPN TRIAL (30 days)](https://nordvpnredirect.pages.dev), enabling users to experience the dependability, speed, and high-performance of NordVPN.
 
 
-[![](https://pixelprivacy.com/wp-content/uploads/2019/11/Best-VPN-for-The-Pirate-Bay.jpg)](https://tempinbox.xyz/redirect.php)
+[![](https://pixelprivacy.com/wp-content/uploads/2019/11/Best-VPN-for-The-Pirate-Bay.jpg)](https://nordvpnredirect.pages.dev)
